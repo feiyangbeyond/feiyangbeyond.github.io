@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: url('//cdn.tsxygfy.cn/register-bg.png');
+    repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+.form-content {
+    position:absolute;
+    background-color: #fff; 
+    position: absolute;
+    top: 35%;  
+    left: 50%; 
+    /* height: 200px;   */
+    margin-top: -100px;
+    width: 400px;  
+    margin-left: -200px;
+}
+form{
+    background-color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    /* width: 500px; */
+    /* height: 300px; */
+}  
+.image-logo{
+    left: 28%;
+    position: absolute;
+    top: -18%;
+} 
+.msg{
+    color: red;
+    
+}

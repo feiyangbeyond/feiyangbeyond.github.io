@@ -1,0 +1,77 @@
+body{
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+.bg{
+	background-image: url(../images/huamulan.jfif);
+	height: 970px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#main{
+	width: 600px;
+	height: 400px;
+	margin: 0px auto;
+	margin-top: 200px;
+	padding-top: 50px;
+	padding-left:200px ;
+	border-radius: 20px;
+	background:rgba(238,238,238,0.7);
+	/*background: #4F94CD;*/
+}
+#main .head{
+	/*width: 1190px;*/
+	height:90px;
+	overflow: hidden;
+}
+
+.head img{
+	height: 80px;
+	float: left;
+}
+.head dl{
+	height: 90px;
+	margin: 0;
+}
+.head dl dd p{
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 20px;
+	font-family: 'Courier New', Courier, monospace
+}
+#main .home{
+	/*width: 1190px;*/
+	margin: 0 auto;
+}
+.action{
+	/*justify-content: center;*/
+	margin: 0;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 700;
+}
+#main dl{
+	height: 30px;
+	width: 500px;
+}
+#main dl dt{
+	float: left;
+	width: 130px;
+	height: 30px;
+	text-align: right;
+}
+#main dl dd{
+	/*line-height: 25px;*/
+	display:table-cell;
+	vertical-align: middle;
+	width: 350px;
+	height: 30px;
+	float: right;
+	margin: 0px;
+}
+#main i{
+	padding-top: 4px;
+	text-align: center;
+	float: left;
+}

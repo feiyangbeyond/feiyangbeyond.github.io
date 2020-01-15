@@ -1,0 +1,499 @@
+/*
+ * @Author: Guo Feiyang
+ * @LastEditors: Guo Feiyang
+ * @Description: 
+ * @Date: 2019-06-15 21:38:46
+ * @LastEditTime: 2019-06-25 12:29:49
+ */
+
+/* ============= 顶部 ============= */
+.tganime-header-fix{
+    transition: none;
+}
+
+.header{
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 100%;
+    min-width: 1280px;
+    height: 84px;
+    z-index: 99;
+    background: #000000;
+
+}
+.header-inner{
+    width: 1200px;
+    height: 84px;
+    margin: 0 auto;
+}
+.logo{
+    /* left: 370px; */
+    top: 16px;
+    z-index: 100;
+    background-image: url(//cdn.tsxygfy.cn/wzrylogo.png);
+    width: 200px;
+    height: 54px;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.pa{
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: #363636;
+}
+
+div{
+    display: block;
+}
+
+.main-nav{
+    width: 790px;
+    padding-left: 230px; 
+}
+.clearfix{
+    zoom: 1;
+}
+td, th, ul, ol{
+    padding: 0;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.main-nav li{
+    float: left;
+    width: 110px;
+    height: 84px;
+    text-align: center;
+}
+
+.main-nav a{
+    display: inline;
+    padding: 20px 0 0;
+    color: #c9c9dd;
+    font-size: 18px;
+    line-height: 30px;
+}
+.pic{
+    float: left;
+    margin-right: 7px;
+}
+.login .register{
+    color: #c9c9dd
+}
+
+/* ============ 顶部下拉列表 ============*/
+.dropul{
+    display: none;
+}
+.header-inner ul li ul{
+    position: absolute;
+    display: none;
+}
+.header-inner ul li ul li{
+    float:none; 
+    line-height:30px; 
+    text-align:left;
+
+}
+.header-inner ul li:hover ul{ 
+    display:block
+}
+
+
+
+/* ============ 排行榜下拉列表 ============ */
+.paihang{
+    float: left; 
+    margin-left: 15px;
+    height: 40px;
+}
+.login_register{
+    float: left; 
+    margin-top: 0
+}
+.paihang a{
+    color: #c9c9dd;
+}
+.paihang ul{
+    position: absolute;
+    display: none;
+}
+.paihang ul li{
+    float:none; 
+    line-height:30px; 
+    text-align:left;
+}
+.paihang:hover ul {
+    display: block;
+}
+/* .paihang a:hover+ul{ 
+    display:block;
+} */
+
+
+/* ============ 轮播 ============ */
+.bg-container{
+    
+    overflow: hidden;
+    /* position: relative; */
+    min-width: 1280px;
+}
+.bg{
+    background: url(//cdn.tsxygfy.cn/libai.png);
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+/* ============ 搜索 ============ */
+.search{
+    margin-top: 380px;
+}
+.search p{
+    margin-left: 350px;
+    margin-top: 5px;
+    font-family: Microsoft YaHei;
+}
+.searchContent {
+    margin-left: 340px;
+}
+.searchText{
+    display: inline;
+}
+.searchText input{
+    width: 500px;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: #FFF;
+    color: #9E9C9C;
+}
+.searchBtn{
+    display: inline;
+}
+.searchBtn input{
+    width: 100px; /* 宽度 */
+	height: 45px; /* 高度 */
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: #1E90FF; /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+}
+/* ============ 搜索结束 ============ */
+
+/* ============ 中部main ============ */
+.main{
+    /* padding-top: 540px; */
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 600px;
+    z-index: 2;
+}
+.top {
+    /* padding-top: 540px; */
+    margin-top: 125px;
+    width: 1200px;
+    height: 342px;
+    background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/rotate_bg.png) no-repeat left top;
+}
+.ratate{
+    width: 604px;
+    height: 342px;
+    overflow: hidden;
+
+}
+.fl{
+    float: left;
+}
+.pr{
+    position: relative;
+}
+.promo-list{
+    position: relative;
+    width: 3020px;
+    height: 298px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.promo-list li{
+    width: 604px;
+    height: 298px;
+    float: left;
+}
+.promo-item{
+    background: #000;
+    overflow: hidden;
+} 
+.rotate .rbox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+.rt{
+    float: left;
+    display: inline-block;
+    width: 120.8px;
+    height: 44px;
+    line-height: 44px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    color: #b1b2be;
+}
+.rn{
+    background: rgba(255,255,255,0.15);
+    color: #f3c258;
+}
+.news_center{
+    width: 325px;
+    height: 342px;
+    overflow: hidden;
+    padding: 0 17px;
+}
+.newsTab{
+    position: relative;
+    width: 325px;
+}
+.tganime-slide-slidein {
+    overflow: hidden;
+}
+.tab-hd{
+    border-bottom: 1px solid #000;
+}
+.clearfix{
+    zoom: 1;
+}
+.tganime-tab-underline {
+    position: relative;
+    overflow: hidden;
+}
+.tab-hd li:hover {
+    /* hover{color:blue} */
+
+    padding: 0;
+    border-bottom: 3px solid #f3c258;
+}
+.tab-hd li {
+    float: left;
+    width: 52px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+    padding-bottom: 3px;
+}
+.tab-hd li a {
+    display: inline-block;
+    color: #b8b9c5;
+}
+.tganime-tab-underline>* {
+    display: block;
+    float: left;
+}
+.tganime-slide-slidein .tganime-slide-list {
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
+}
+.tganime-slide-slidein .tganime-slide-list>* {
+    float: left;
+    display: block;
+}
+.news-list .line-sp {
+    width: 294px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 15px;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+    background: #414046;
+}
+.news-list li {
+    margin-bottom: 9px;
+    overflow: hidden;
+}
+.news-type {
+    display: none;
+    width: 48px;
+    height: 19px;
+    line-height: 19px;
+    margin-right: 12px;
+    background: #e3e3e3;
+    border-radius: 10px;
+    border: 2px solid #e3e3e3;
+    text-align: center;
+    color: #999999;
+    text-indent: 2px;
+}
+.news_center .news-list li {
+    margin-bottom: 11px;
+}
+.news-list .line-sp {
+    width: 294px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 15px;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+    background: #414046;
+}
+.news-list li {
+    margin-bottom: 9px;
+    overflow: hidden;
+}
+.news-list .line-sp a {
+    color: #f3c258;
+    font-size: 18px;
+}
+.news-txt {
+    width: 270px;
+    color: #b8b9c5;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.news_center .news-list .news-time {
+    color: #999;
+}
+.news-time {
+    font-size: 12px;
+    color: #b8b9c5;
+}
+em{
+    font-style: normal ;
+}
+/* ============ 中部main结束 ============ */
+
+/* ============ 下载游戏开始 ============ */
+.download_pannel {
+    width: 236px;
+    height: 342px;
+    position: relative;
+}
+.download_pannel a {
+    display: block;
+}
+.download_btn {
+    width: 236px;
+    height: 128px;
+    background-position: 0 0px;
+}
+.guard_btn {
+    width: 236px;
+    height: 106px;
+    background-position: 0 -128px;
+}
+.tiyan_btn {
+    width: 236px;
+    height: 108px;
+    background-position: 0 -240px;
+}
+.download_btn, .guard_btn, .tiyan_btn{
+    background-image: url(//cdn.tsxygfy.cn/index.png);
+    display: inline-block;
+}
+.quick_entrance {
+    overflow: hidden;
+    height: 134px;
+    margin: 28px auto 0px;
+    letter-spacing: -0.35em;
+    margin-right: -15px;
+}
+.quick_entrance a {
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+    width: 291px;
+    height: 134px;
+    margin-right: 12px;
+    overflow: hidden;
+}
+/* ============ 下载游戏结束 ============ */
+
+/* ============ 狄仁杰护卫站开始 ============ */
+.tiyan_btn:hover+.guard-div{
+    display: block;
+}
+
+.guard-div{
+    display: none;
+    position: relative;
+    float: left;
+    color: #fff;
+    left: 236px;
+
+}
+
+
+/* ============ 狄仁杰护卫站结束============ */
+
+/*footer部分*/
+.footer{
+    background:#f5f5f5; 
+    border-top:1px solid #eee;
+    margin:10px 0px;
+    text-align: center;
+}
+.footerCon{ 
+    width:1190px;  
+    margin:10px auto 0px;    
+    overflow: hidden;
+}
+.footerCon .links{ 
+    border-bottom: 1px solid #eee; 
+    width: 1240px;
+    overflow:hidden; 
+    padding-bottom: 20px; 
+}
+.footerCon .links dl{
+    float:left;
+    width: 200px;
+    margin-right:40px;
+}
+.footerCon .links dl dt{
+    color:#646464; 
+    padding-bottom: 10px; 
+    font-weight: 700; 
+    font-size: 14px; 
+}
+.footerCon .links dl dd{ 
+    line-height: 25px;
+}
+.footerCon .otherLinks{ 
+    height:30px; 
+    line-height: 30px;  
+    text-align: center;  
+}
+.footerCon .copyRight{  
+    line-height: 30px;  
+    text-align: center; 
+}
